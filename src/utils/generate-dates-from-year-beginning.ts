@@ -1,7 +1,7 @@
 import dayjs from 'dayjs'
 
 export function generateDatesFromYearBeginning() {
-    const firstDayOfTheYear = dayjs().startOf('year')
+    const firstDayOfTheYear = dayjs().startOf('year').add(3, 'hour')
     const today = new Date()
     const dates = []
     let compareDate = firstDayOfTheYear
