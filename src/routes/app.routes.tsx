@@ -5,6 +5,7 @@ const { Navigator, Screen } = createNativeStackNavigator()
 import { Home } from '../screens/Home'
 import { New } from '../screens/New'
 import { Habit } from '../screens/Habit'
+import '../lib/day-js'
 
 export function AppRoutes() {
     return (
